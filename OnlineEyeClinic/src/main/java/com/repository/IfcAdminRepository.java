@@ -3,8 +3,8 @@ package com.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.dto.Patient;
+import com.dto.Admin;
 
 @Repository
-public interface IPatientRepository extends JpaRepository<Patient, Integer>{
+public interface IfcAdminRepository extends JpaRepository<Admin, Integer> {
 }

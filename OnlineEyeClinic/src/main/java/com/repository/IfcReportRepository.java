@@ -10,10 +10,10 @@ import org.springframework.stereotype.Repository;
 import com.dto.Report;
 
 @Repository
-public interface IReportRepository extends JpaRepository<Report, Integer>{
-	@Query(value = "select r from Report r where dateOfReport = ?1")
+public interface IfcReportRepository extends JpaRepository<Report, Integer> {
+	@Query(value="select r from Report r where r.dateOfReport =?1")
 	public List<Report> viewByDate(LocalDate date);
 	
-	@Query(value = "select r from Report r where r.reportId =?1, r.patientId=?2")
-	public Report viewReport(int reportId, int patientId);
+	@Query(value="select r from Report r left join Patient p on r.patientId.patientId = p.patientId where r.patientId.patientId =?1")
+	public List<Report> viewByPatientId(int patientId);
 }

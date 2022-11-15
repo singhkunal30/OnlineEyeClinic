@@ -5,29 +5,51 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.SequenceGenerator;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Patient {
 	@Id
 	@GeneratedValue(generator = "patSeq")
-	@SequenceGenerator( name ="patSeq", sequenceName = "PATSEQ", allocationSize = 1 , initialValue = 2001)
+	@SequenceGenerator(name = "patSeq", sequenceName="PATSEQ", allocationSize=1, initialValue=2001)
 	private int patientId;
 	private String patientName;
 	private int patientAge;
+	private String gender;
 	private long patientMobile;
 	private String patientEmail;
 	private LocalDate patientDOB;
-	private String patientUserName;
 	private String patientPassword;
 	private String address;
-	@OneToMany(mappedBy = "patientId", cascade = CascadeType.ALL)
+//	@JsonBackReference(value="rptPatManageRef")
+	@OneToMany(mappedBy="patientId")
+	@JsonIgnore
 	private List<Report> patReportList;
-	@OneToMany(mappedBy = "patientId", cascade  = CascadeType.ALL)
+//	@JsonBackReference(value = "aptPatManageRef")
+	@OneToMany(mappedBy="patientId")
+	@JsonIgnore
 	private List<Appointment> patAptList;
+	public Patient() {
+		super();
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	
 	public List<Report> getPatReportList() {
 		return patReportList;
 	}
@@ -90,14 +112,6 @@ public class Patient {
 
 	public void setPatientDOB(LocalDate patientDOB) {
 		this.patientDOB = patientDOB;
-	}
-
-	public String getPatientUserName() {
-		return patientUserName;
-	}
-
-	public void setPatientUserName(String patientUserName) {
-		this.patientUserName = patientUserName;
 	}
 
 	public String getPatientPassword() {

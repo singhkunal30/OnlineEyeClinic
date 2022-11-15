@@ -1,0 +1,10 @@
+select * from admin;
+select * from appointment;
+select * from doctor;
+select * from doctor_test_list;
+select * from patient;
+select * from report;
+select * from report_test_list;
+select * from spectacles;
+select * from test;
+delete from admin where admin_id = 

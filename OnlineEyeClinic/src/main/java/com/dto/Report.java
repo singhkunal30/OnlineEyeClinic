@@ -1,43 +1,54 @@
 package com.dto;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 import java.util.List;
 
-import javax.persistence.*;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.SequenceGenerator;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 public class Report {
 	@Id
 	@GeneratedValue(generator = "reportSeq")
-	@SequenceGenerator( name ="reportSeq", sequenceName = "REPORTSEQ", allocationSize = 1 , initialValue = 3001)
+	@SequenceGenerator(name = "reportSeq", sequenceName="REPORTSEQ", allocationSize=1, initialValue=3001)
 	private int reportId;
-	private LocalDateTime dateOfReport;
+	private LocalDate dateOfReport;
 	private String descriptionOfReport;
 	private String visualAcuity;
 	private String visualAcuityNear;
 	private String visualAcuityDistance;
-	@ManyToMany(cascade = CascadeType.ALL)
+//	@JsonManagedReference(value="testRptBackRef")
+	@ManyToMany(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+	@JsonIgnore
+	@JoinColumn(name = "report_test")
 	private List<Test> testList;
-	@ManyToOne(cascade = CascadeType.ALL)
+//	@JsonManagedReference(value="patRptBackRef")
+	@ManyToOne(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+	@JoinColumn(name = "patient_id")
 	private Patient patientId;
-	@OneToOne(cascade = CascadeType.ALL)
-	private Spectacles spectaclesId;
-	public Spectacles getSpectaclesId() {
-		return spectaclesId;
-	}
-	public void setSpectaclesId(Spectacles spectaclesId) {
-		this.spectaclesId = spectaclesId;
-	}
+	
 	public int getReportId() {
 		return reportId;
 	}
 	public void setReportId(int reportId) {
 		this.reportId = reportId;
 	}
-	public LocalDateTime getDateOfReport() {
+	public LocalDate getDateOfReport() {
 		return dateOfReport;
 	}
-	public void setDateOfReport(LocalDateTime dateOfReport) {
+	public void setDateOfReport(LocalDate dateOfReport) {
 		this.dateOfReport = dateOfReport;
 	}
 	public String getDescriptionOfReport() {
@@ -64,16 +75,17 @@ public class Report {
 	public void setVisualAcuityDistance(String visualAcuityDistance) {
 		this.visualAcuityDistance = visualAcuityDistance;
 	}
-	public Patient getPatientId() {
-		return patientId;
-	}
-	public void setPatientId(Patient patientId) {
-		this.patientId = patientId;
-	}
 	public List<Test> getTestList() {
 		return testList;
 	}
 	public void setTestList(List<Test> testList) {
 		this.testList = testList;
 	}
+	public Patient getPatientId() {
+		return patientId;
+	}
+	public void setPatientId(Patient patientId) {
+		this.patientId = patientId;
+	}
+	
 }
