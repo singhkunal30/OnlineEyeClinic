@@ -547,3 +547,517 @@
 2022-11-15 10:48:57.830  INFO 20760 --- [http-nio-2700-exec-6] com.dao.ReportServiceImpl                : Report added
 2022-11-15 10:48:57.832  INFO 20760 --- [http-nio-2700-exec-7] com.dao.PatientServiceImpl               : Patient viewed
 2022-11-15 10:49:58.897  INFO 20760 --- [http-nio-2700-exec-10] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:01:27.390  INFO 20760 --- [http-nio-2700-exec-2] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:01:38.345  INFO 20760 --- [http-nio-2700-exec-3] com.dao.ReportServiceImpl                : Report added
+2022-11-15 11:01:38.348  INFO 20760 --- [http-nio-2700-exec-4] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:07:37.649  INFO 20760 --- [http-nio-2700-exec-9] com.dao.AdminServiceImpl                 : Admin added
+2022-11-15 11:11:57.870  INFO 20760 --- [http-nio-2700-exec-10] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:12:07.329  INFO 20760 --- [http-nio-2700-exec-1] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:19:11.820  INFO 20760 --- [http-nio-2700-exec-4] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:19:39.914  INFO 20760 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:20:19.884  INFO 20760 --- [http-nio-2700-exec-5] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:20:25.998  INFO 20760 --- [http-nio-2700-exec-6] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 11:20:28.839  INFO 20760 --- [http-nio-2700-exec-7] com.dao.AppointmentServiceImpl           : Appointments viewed by patient
+2022-11-15 11:20:30.553  INFO 20760 --- [http-nio-2700-exec-9] com.dao.ReportServiceImpl                : All Reports viewed
+2022-11-15 11:20:40.104  INFO 20760 --- [http-nio-2700-exec-8] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:20:45.947  INFO 20760 --- [http-nio-2700-exec-10] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:21:16.081  INFO 20760 --- [http-nio-2700-exec-1] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:21:20.862  INFO 20760 --- [http-nio-2700-exec-2] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 11:21:22.919  INFO 20760 --- [http-nio-2700-exec-4] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:22:06.957  INFO 20760 --- [http-nio-2700-exec-3] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 11:22:23.068  INFO 20760 --- [http-nio-2700-exec-5] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:22:49.171  WARN 20760 --- [http-nio-2700-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.NoSuchElementException: No value present]
+2022-11-15 11:24:58.677  INFO 20760 --- [http-nio-2700-exec-9] com.dao.AdminServiceImpl                 : Admin updated
+2022-11-15 11:26:41.820  INFO 20760 --- [http-nio-2700-exec-10] com.dao.AdminServiceImpl                 : Admin updated
+2022-11-15 11:27:34.871  INFO 20760 --- [http-nio-2700-exec-1] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:27:48.421  INFO 20760 --- [http-nio-2700-exec-2] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:28:04.081  INFO 20760 --- [http-nio-2700-exec-4] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:28:19.402  INFO 20760 --- [http-nio-2700-exec-3] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:28:21.055  INFO 20760 --- [http-nio-2700-exec-5] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:28:37.049  INFO 20760 --- [http-nio-2700-exec-6] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 11:28:52.607  INFO 20760 --- [http-nio-2700-exec-7] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 11:34:17.717  INFO 20760 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:42:59.453  INFO 20760 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:43:06.717  INFO 20760 --- [http-nio-2700-exec-2] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 11:43:28.268 ERROR 20760 --- [http-nio-2700-exec-4] com.dao.DoctorServiceImpl                : Doctor not found exception thrown
+2022-11-15 11:43:28.272  WARN 20760 --- [http-nio-2700-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exceptions.DoctorIdNotFoundException: Doctor Not Found]
+2022-11-15 11:43:35.340 ERROR 20760 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient not found exception thrown
+2022-11-15 11:43:35.342  WARN 20760 --- [http-nio-2700-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exceptions.PatientIdNotFoundException: Patient Not Found]
+2022-11-15 11:45:01.577 ERROR 20760 --- [http-nio-2700-exec-5] com.dao.PatientServiceImpl               : Patient not found exception thrown
+2022-11-15 11:45:01.578  WARN 20760 --- [http-nio-2700-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exceptions.PatientIdNotFoundException: Patient Not Found]
+2022-11-15 11:45:09.182 ERROR 20760 --- [http-nio-2700-exec-6] com.dao.PatientServiceImpl               : Patient not found exception thrown
+2022-11-15 11:45:09.184  WARN 20760 --- [http-nio-2700-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exceptions.PatientIdNotFoundException: Patient Not Found]
+2022-11-15 11:50:27.717  INFO 20760 --- [http-nio-2700-exec-7] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:50:41.946  INFO 20760 --- [http-nio-2700-exec-9] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:50:45.119  INFO 20760 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:50:49.428  INFO 20760 --- [http-nio-2700-exec-10] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:50:52.914  INFO 20760 --- [http-nio-2700-exec-1] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:50:55.075  INFO 20760 --- [http-nio-2700-exec-2] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:02.835  INFO 20760 --- [http-nio-2700-exec-4] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:11.408  INFO 20760 --- [http-nio-2700-exec-3] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:11.763  INFO 20760 --- [http-nio-2700-exec-5] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:14.964  INFO 20760 --- [http-nio-2700-exec-6] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:15.850  INFO 20760 --- [http-nio-2700-exec-7] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:18.205  INFO 20760 --- [http-nio-2700-exec-9] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:19.246  INFO 20760 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:26.607  INFO 20760 --- [http-nio-2700-exec-10] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:51:43.998  INFO 20760 --- [http-nio-2700-exec-1] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:52:36.868  INFO 20760 --- [http-nio-2700-exec-2] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:52:53.500  INFO 20760 --- [http-nio-2700-exec-4] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 11:53:17.810  INFO 20760 --- [http-nio-2700-exec-3] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:01:59.876  INFO 20760 --- [http-nio-2700-exec-6] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:02:32.192  INFO 20760 --- [http-nio-2700-exec-7] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:02:36.016  INFO 20760 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:03:22.954  INFO 20760 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:03:47.650  INFO 20760 --- [http-nio-2700-exec-10] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:03:52.710  INFO 20760 --- [http-nio-2700-exec-1] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:04:06.442  INFO 20760 --- [http-nio-2700-exec-2] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:04:10.685  INFO 20760 --- [http-nio-2700-exec-4] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:04:27.237  INFO 20760 --- [http-nio-2700-exec-3] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:04:29.972  INFO 20760 --- [http-nio-2700-exec-5] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:04:35.019  INFO 20760 --- [http-nio-2700-exec-6] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:04:40.952  INFO 20760 --- [http-nio-2700-exec-7] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 12:05:07.695  INFO 20760 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:05:07.849  WARN 20760 --- [http-nio-2700-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:06:24.900  INFO 20760 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:06:25.216  WARN 20760 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:06:59.366  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-15 12:06:59.389  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:06:59.390  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:06:59.402  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:06:59.407  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-11-15 12:06:59.410  INFO 20760 --- [RMI TCP Connection(197)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-11-15 12:07:09.282  INFO 22056 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 22056 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:07:09.284  INFO 22056 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:07:09.330  INFO 22056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 12:07:09.330  INFO 22056 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 12:07:10.332  INFO 22056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:07:10.629  INFO 22056 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 283 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:07:10.960  INFO 22056 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d832ceef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:07:11.014  INFO 22056 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:07:11.318  INFO 22056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:07:11.329  INFO 22056 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:07:11.329  INFO 22056 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:07:11.427  INFO 22056 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:07:11.428  INFO 22056 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2097 ms
+2022-11-15 12:07:11.646  INFO 22056 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:07:11.704  INFO 22056 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-15 12:07:11.876  INFO 22056 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 12:07:11.995  INFO 22056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-15 12:07:12.207  INFO 22056 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-15 12:07:12.230  INFO 22056 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:07:13.091  INFO 22056 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:07:13.101  INFO 22056 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:07:13.754  WARN 22056 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:07:14.199  INFO 22056 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:07:14.241  INFO 22056 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:07:14.251  INFO 22056 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 5.379 seconds (JVM running for 6.229)
+2022-11-15 12:07:25.955  INFO 22056 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:07:25.955  INFO 22056 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:07:25.957  INFO 22056 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:07:26.035  INFO 22056 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:07:26.473  WARN 22056 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:07:40.348  INFO 22056 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:07:40.756  WARN 22056 --- [http-nio-2700-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:08:09.979  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-15 12:08:09.991  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:08:09.992  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:08:09.999  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:08:10.002  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-15 12:08:10.005  INFO 22056 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-15 12:09:16.799  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:09:16.801  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:09:16.866  INFO 26408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 12:09:16.867  INFO 26408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 12:09:18.169  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:09:18.556  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 372 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:09:18.918  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:09:18.987  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:09:19.347  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:09:19.366  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:09:19.367  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:09:19.500  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:09:19.501  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2634 ms
+2022-11-15 12:09:19.765  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:09:19.835  INFO 26408 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-15 12:09:20.082  INFO 26408 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 12:09:20.229  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-15 12:09:20.516  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-15 12:09:20.538  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:09:21.513  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:09:21.531  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:09:22.546  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:09:23.145  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:09:23.209  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:09:23.226  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 6.887 seconds (JVM running for 8.041)
+2022-11-15 12:09:46.230  INFO 26408 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:09:46.231  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:09:46.233  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-15 12:09:46.309  INFO 26408 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:09:46.593  WARN 26408 --- [http-nio-2700-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:12:01.480  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2022-11-15 12:12:01.495  INFO 26408 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:12:01.497  INFO 26408 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:12:01.506  INFO 26408 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:12:01.510  INFO 26408 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-15 12:12:01.518  INFO 26408 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-15 12:12:01.627  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:12:01.628  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:12:02.180  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:12:02.333  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 151 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:12:02.383  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:12:02.385  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:12:02.427  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:12:02.428  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:12:02.429  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:12:02.464  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:12:02.464  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 834 ms
+2022-11-15 12:12:02.521  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:12:02.528  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-15 12:12:02.702  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-15 12:12:02.703  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:12:02.879  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:12:02.879  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:12:03.108  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:12:03.268  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:12:03.286  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:12:03.293  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.701 seconds (JVM running for 168.107)
+2022-11-15 12:12:03.295  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:14:34.130  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:14:34.143  INFO 26408 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:14:34.148  INFO 26408 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:14:34.149  INFO 26408 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-15 12:14:34.150  INFO 26408 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-11-15 12:14:34.241  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:14:34.241  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:14:34.702  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:14:34.845  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:14:34.886  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:14:34.888  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:14:34.915  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:14:34.916  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:14:34.916  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:14:34.941  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:14:34.941  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 698 ms
+2022-11-15 12:14:34.993  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:14:34.999  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-11-15 12:14:35.068  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-11-15 12:14:35.069  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:14:35.233  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:14:35.233  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:14:35.465  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:14:35.587  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:14:35.601  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:14:35.607  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.4 seconds (JVM running for 320.421)
+2022-11-15 12:14:35.608  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:14:45.298  INFO 26408 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:14:45.299  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:14:45.301  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:14:45.310  INFO 26408 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:14:51.377  WARN 26408 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 2525; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.SocketTimeoutException: Connect timed out. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 2525; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.SocketTimeoutException: Connect timed out; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 2525; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.SocketTimeoutException: Connect timed out]
+2022-11-15 12:15:52.858  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:15:52.872  INFO 26408 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:15:52.873  INFO 26408 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:15:52.879  INFO 26408 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:15:52.880  INFO 26408 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-11-15 12:15:52.882  INFO 26408 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-11-15 12:15:52.989  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:15:52.990  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:15:53.518  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:15:53.643  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:15:53.675  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:15:53.677  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:15:53.701  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:15:53.702  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:15:53.702  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:15:53.724  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:15:53.725  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 731 ms
+2022-11-15 12:15:53.767  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:15:53.772  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-11-15 12:15:53.847  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-11-15 12:15:53.850  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:15:54.013  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:15:54.014  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:15:54.191  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:15:54.291  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:15:54.303  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:15:54.306  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.36 seconds (JVM running for 399.12)
+2022-11-15 12:15:54.307  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:17:41.618  INFO 26408 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:17:41.619  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:17:41.620  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:17:41.630  INFO 26408 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:17:45.178  WARN 26408 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at<EOL>535 5.7.8  https://support.google.com/mail/?p=BadCredentials b24-20020aa79518000000b0056abfa74eddsm8126602pfp.147 - gsmtp<EOL>]
+2022-11-15 12:19:29.447  INFO 26408 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:19:32.639  WARN 26408 --- [http-nio-2700-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at<EOL>535 5.7.8  https://support.google.com/mail/?p=BadCredentials h3-20020a056a00000300b0056c6c63fda6sm7885539pfk.3 - gsmtp<EOL>]
+2022-11-15 12:20:21.512  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:20:21.525  INFO 26408 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:20:21.525  INFO 26408 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:20:21.530  INFO 26408 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:20:21.531  INFO 26408 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-11-15 12:20:21.542  INFO 26408 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-11-15 12:20:21.649  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:20:21.650  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:20:22.179  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:20:22.320  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:20:22.357  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:20:22.359  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:20:22.431  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:20:22.433  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:20:22.433  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:20:22.468  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:20:22.468  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 814 ms
+2022-11-15 12:20:22.528  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:20:22.535  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-11-15 12:20:22.621  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-11-15 12:20:22.622  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:20:22.772  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:20:22.773  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:20:23.025  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:20:23.247  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:20:23.271  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:20:23.277  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.663 seconds (JVM running for 668.089)
+2022-11-15 12:20:23.279  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:20:28.163  INFO 26408 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:20:28.163  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:20:28.164  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:20:28.175  INFO 26408 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:20:28.636  WARN 26408 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:21:01.524  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:21:01.538  INFO 26408 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:21:01.539  INFO 26408 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:21:01.543  INFO 26408 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:01.543  INFO 26408 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-11-15 12:21:01.546  INFO 26408 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-11-15 12:21:01.624  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:21:01.625  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:21:02.092  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:21:02.224  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:21:02.257  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:21:02.259  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:21:02.288  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:21:02.289  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:21:02.289  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:21:02.310  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:21:02.310  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2022-11-15 12:21:02.357  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:21:02.362  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-11-15 12:21:02.434  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-11-15 12:21:02.435  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:21:02.568  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:21:02.569  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:02.731  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:21:02.839  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:21:02.859  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:21:02.864  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.266 seconds (JVM running for 707.677)
+2022-11-15 12:21:02.865  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:21:15.532  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:21:15.542  INFO 26408 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:21:15.545  INFO 26408 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:15.546  INFO 26408 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-11-15 12:21:15.556  INFO 26408 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-11-15 12:21:15.634  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:21:15.634  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:21:16.111  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:21:16.237  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:21:16.269  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:21:16.270  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:21:16.292  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:21:16.293  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:21:16.293  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:21:16.316  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:21:16.316  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 679 ms
+2022-11-15 12:21:16.360  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:21:16.366  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-11-15 12:21:16.437  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-11-15 12:21:16.438  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:21:16.567  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:21:16.568  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:16.736  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:21:16.836  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:21:16.846  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:21:16.850  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.241 seconds (JVM running for 721.663)
+2022-11-15 12:21:16.851  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:21:34.641  INFO 26408 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-15 12:21:34.652  INFO 26408 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:21:34.657  INFO 26408 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:34.657  INFO 26408 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-11-15 12:21:34.660  INFO 26408 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-11-15 12:21:34.755  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 26408 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:21:34.756  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:21:35.247  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:21:35.390  INFO 26408 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:21:35.420  INFO 26408 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f9e0859f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:21:35.421  INFO 26408 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:21:35.444  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:21:35.445  INFO 26408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:21:35.445  INFO 26408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:21:35.467  INFO 26408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:21:35.467  INFO 26408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 709 ms
+2022-11-15 12:21:35.515  INFO 26408 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:21:35.521  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-11-15 12:21:35.688  INFO 26408 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-11-15 12:21:35.688  INFO 26408 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:21:35.826  INFO 26408 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:21:35.827  INFO 26408 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:21:35.997  WARN 26408 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:21:36.098  INFO 26408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:21:36.108  INFO 26408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:21:36.113  INFO 26408 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 1.39 seconds (JVM running for 740.925)
+2022-11-15 12:21:36.115  INFO 26408 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-15 12:21:49.076  INFO 26408 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:21:49.076  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:21:49.077  INFO 26408 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:21:49.085  INFO 26408 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:21:49.204  WARN 26408 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:23:24.860  INFO 26408 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:24:15.649  WARN 26408 --- [http-nio-2700-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:25:23.551  INFO 26408 --- [http-nio-2700-exec-7] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:26:20.325  INFO 26408 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:26:20.432  WARN 26408 --- [http-nio-2700-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:27:10.573  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-15 12:27:10.593  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:27:10.594  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:27:10.598  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:27:10.599  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-11-15 12:27:10.601  INFO 26408 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-11-15 12:27:52.454  INFO 25224 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 25224 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:27:52.456  INFO 25224 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:27:52.512  INFO 25224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 12:27:52.512  INFO 25224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 12:27:53.588  INFO 25224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:27:53.840  INFO 25224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:27:54.100  INFO 25224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2973f011] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:27:54.148  INFO 25224 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:27:54.503  INFO 25224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:27:54.517  INFO 25224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:27:54.517  INFO 25224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:27:54.617  INFO 25224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:27:54.618  INFO 25224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2104 ms
+2022-11-15 12:27:54.872  INFO 25224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:27:54.950  INFO 25224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-15 12:27:55.139  INFO 25224 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 12:27:55.261  INFO 25224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-15 12:27:55.516  INFO 25224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-15 12:27:55.539  INFO 25224 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:27:56.529  INFO 25224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:27:56.540  INFO 25224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:27:57.178  WARN 25224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:27:57.612  INFO 25224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:27:57.658  INFO 25224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:27:57.668  INFO 25224 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 5.607 seconds (JVM running for 6.555)
+2022-11-15 12:28:55.142  INFO 25224 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:28:55.142  INFO 25224 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:28:55.143  INFO 25224 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-15 12:28:55.229  INFO 25224 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:28:55.692  WARN 25224 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 5000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:29:26.830  INFO 25224 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:29:47.714  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-15 12:29:47.725  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 12:29:47.727  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 12:29:47.734  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:29:47.737  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-15 12:29:47.741  INFO 25224 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-15 12:33:43.793  INFO 24440 --- [restartedMain] com.OnlineEyeClinicApplication           : Starting OnlineEyeClinicApplication using Java 17.0.4.1 on INLEN8520062193 with PID 24440 (C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic\target\classes started by ksingh58 in C:\Users\ksingh58\OneDrive - Capgemini\Documents\Eclipse\OnlineEyeClinic)
+2022-11-15 12:33:43.795  INFO 24440 --- [restartedMain] com.OnlineEyeClinicApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-11-15 12:33:43.842  INFO 24440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-15 12:33:43.842  INFO 24440 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-15 12:33:44.827  INFO 24440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-15 12:33:45.129  INFO 24440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 289 ms. Found 6 JPA repository interfaces.
+2022-11-15 12:33:45.475  INFO 24440 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e27a2da1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-11-15 12:33:45.542  INFO 24440 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-11-15 12:33:45.936  INFO 24440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2700 (http)
+2022-11-15 12:33:45.946  INFO 24440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-15 12:33:45.947  INFO 24440 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-15 12:33:46.052  INFO 24440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-15 12:33:46.053  INFO 24440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2210 ms
+2022-11-15 12:33:46.258  INFO 24440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-15 12:33:46.308  INFO 24440 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-15 12:33:46.455  INFO 24440 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-15 12:33:46.553  INFO 24440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-15 12:33:46.746  INFO 24440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-15 12:33:46.762  INFO 24440 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-15 12:33:47.639  INFO 24440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-15 12:33:47.650  INFO 24440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 12:33:48.172  WARN 24440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-15 12:33:48.546  INFO 24440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-15 12:33:48.610  INFO 24440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2700 (http) with context path ''
+2022-11-15 12:33:48.625  INFO 24440 --- [restartedMain] com.OnlineEyeClinicApplication           : Started OnlineEyeClinicApplication in 5.203 seconds (JVM running for 6.031)
+2022-11-15 12:34:47.398  INFO 24440 --- [http-nio-2700-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-15 12:34:47.398  INFO 24440 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-15 12:34:47.400  INFO 24440 --- [http-nio-2700-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-15 12:34:47.468  INFO 24440 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:34:47.688  WARN 24440 --- [http-nio-2700-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 12:41:56.828  INFO 24440 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:42:01.379  INFO 24440 --- [http-nio-2700-exec-4] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:42:04.398  INFO 24440 --- [http-nio-2700-exec-5] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 12:42:06.536  INFO 24440 --- [http-nio-2700-exec-6] com.dao.AppointmentServiceImpl           : Appointments viewed by patient
+2022-11-15 12:42:12.759  INFO 24440 --- [http-nio-2700-exec-7] com.dao.ReportServiceImpl                : All Reports viewed
+2022-11-15 12:42:25.896  INFO 24440 --- [http-nio-2700-exec-8] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:42:27.124  INFO 24440 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 12:42:29.891  INFO 24440 --- [http-nio-2700-exec-10] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 12:42:31.637  INFO 24440 --- [http-nio-2700-exec-1] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:42:53.981  INFO 24440 --- [http-nio-2700-exec-2] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 12:42:59.929  INFO 24440 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : All patients viewed
+2022-11-15 12:43:48.564  INFO 24440 --- [http-nio-2700-exec-4] com.dao.PatientServiceImpl               : All patients viewed
+2022-11-15 12:43:53.507  INFO 24440 --- [http-nio-2700-exec-5] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 12:43:56.254  INFO 24440 --- [http-nio-2700-exec-6] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 12:44:11.803  INFO 24440 --- [http-nio-2700-exec-7] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 12:44:11.887  WARN 24440 --- [http-nio-2700-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.mail.MailSendException: Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com. Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com; message exceptions (1) are:<EOL>Failed message 1: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 587; timeout 10000;<EOL>  nested exception is:<EOL>?java.net.UnknownHostException: smtp.gmail.com]
+2022-11-15 13:11:14.951  INFO 24440 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient added
+2022-11-15 13:11:54.085  INFO 24440 --- [http-nio-2700-exec-2] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:12:01.009  INFO 24440 --- [http-nio-2700-exec-3] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:12:23.404  INFO 24440 --- [http-nio-2700-exec-4] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:12:31.878  INFO 24440 --- [http-nio-2700-exec-5] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:13:59.270  INFO 24440 --- [http-nio-2700-exec-7] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:14:35.927  INFO 24440 --- [http-nio-2700-exec-8] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:14:39.254  INFO 24440 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:15:48.533  INFO 24440 --- [http-nio-2700-exec-1] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:19:33.172  INFO 24440 --- [http-nio-2700-exec-5] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 13:19:52.098  INFO 24440 --- [http-nio-2700-exec-6] com.dao.PatientServiceImpl               : All patients viewed
+2022-11-15 13:20:03.295  INFO 24440 --- [http-nio-2700-exec-7] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:20:07.054  INFO 24440 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 13:20:29.831  INFO 24440 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 13:20:42.371  INFO 24440 --- [http-nio-2700-exec-10] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 13:20:50.969  INFO 24440 --- [http-nio-2700-exec-1] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 13:21:29.462  INFO 24440 --- [http-nio-2700-exec-2] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 13:21:33.552  INFO 24440 --- [http-nio-2700-exec-3] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 13:23:08.287  INFO 24440 --- [http-nio-2700-exec-5] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:23:15.648  INFO 24440 --- [http-nio-2700-exec-6] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:23:21.293  INFO 24440 --- [http-nio-2700-exec-7] com.dao.AppointmentServiceImpl           : All Appointments for 2022-11-16 viewed
+2022-11-15 13:23:38.049  INFO 24440 --- [http-nio-2700-exec-8] com.dao.AppointmentServiceImpl           : All Appointments for 2022-11-16 viewed
+2022-11-15 13:23:42.771  INFO 24440 --- [http-nio-2700-exec-9] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:23:42.782  INFO 24440 --- [http-nio-2700-exec-1] com.dao.AppointmentServiceImpl           : Appointment booked
+2022-11-15 13:23:50.569  INFO 24440 --- [http-nio-2700-exec-2] com.dao.DoctorServiceImpl                : All doctors viewed
+2022-11-15 13:23:56.610  INFO 24440 --- [http-nio-2700-exec-3] com.dao.AppointmentServiceImpl           : Appointments viewed by patient
+2022-11-15 13:24:04.567 ERROR 24440 --- [http-nio-2700-exec-4] com.dao.ReportServiceImpl                : Report not found exception thrown
+2022-11-15 13:24:04.570  WARN 24440 --- [http-nio-2700-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.exceptions.ReportIdNotFoundException: No Reports Found]
+2022-11-15 13:24:22.144  INFO 24440 --- [http-nio-2700-exec-5] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 13:24:24.191  INFO 24440 --- [http-nio-2700-exec-6] com.dao.DoctorServiceImpl                : All appointments for 109 viewed
+2022-11-15 13:24:57.826  INFO 24440 --- [http-nio-2700-exec-7] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 13:25:07.865  INFO 24440 --- [http-nio-2700-exec-8] com.dao.AppointmentServiceImpl           : All appointments viewed
+2022-11-15 13:27:00.336  INFO 24440 --- [http-nio-2700-exec-10] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:30:21.124  INFO 24440 --- [http-nio-2700-exec-2] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:31:05.924  INFO 24440 --- [http-nio-2700-exec-3] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 13:31:54.270  INFO 24440 --- [http-nio-2700-exec-5] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:31:54.272  INFO 24440 --- [http-nio-2700-exec-6] com.dao.ReportServiceImpl                : Report added
+2022-11-15 13:35:25.311  INFO 24440 --- [http-nio-2700-exec-9] com.dao.ReportServiceImpl                : Report added
+2022-11-15 13:35:25.314  INFO 24440 --- [http-nio-2700-exec-10] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:37:17.885  INFO 24440 --- [http-nio-2700-exec-3] com.dao.ReportServiceImpl                : Report added
+2022-11-15 13:37:17.890  INFO 24440 --- [http-nio-2700-exec-4] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:37:29.911  INFO 24440 --- [http-nio-2700-exec-5] com.dao.ReportServiceImpl                : Report viewed
+2022-11-15 13:39:13.305  INFO 24440 --- [http-nio-2700-exec-8] com.dao.PatientServiceImpl               : Patient viewed
+2022-11-15 13:39:28.831  INFO 24440 --- [http-nio-2700-exec-10] com.dao.ReportServiceImpl                : All Reports viewed
+2022-11-15 13:39:44.331  INFO 24440 --- [http-nio-2700-exec-9] com.dao.DoctorServiceImpl                : Doctor viewed
+2022-11-15 13:40:03.834  INFO 24440 --- [http-nio-2700-exec-2] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 13:44:16.164  INFO 24440 --- [http-nio-2700-exec-3] com.dao.TestServiceImpl                  : Test Added
+2022-11-15 13:46:05.148  INFO 24440 --- [http-nio-2700-exec-6] com.dao.TestServiceImpl                  : Test Added
+2022-11-15 13:46:39.192  INFO 24440 --- [http-nio-2700-exec-8] com.dao.TestServiceImpl                  : Test Updated
+2022-11-15 13:47:19.491  INFO 24440 --- [http-nio-2700-exec-10] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 13:47:51.898  INFO 24440 --- [http-nio-2700-exec-9] com.dao.TestServiceImpl                  : All Tests are viewed
+2022-11-15 13:53:02.351  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-15 13:53:02.373  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-15 13:53:02.376  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-11-15 13:53:02.384  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-15 13:53:02.387  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-15 13:53:02.391  INFO 24440 --- [RMI TCP Connection(83)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
